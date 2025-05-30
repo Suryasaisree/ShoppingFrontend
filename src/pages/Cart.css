@@ -1,0 +1,117 @@
+/* Container for the cart */
+.cart-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fdfdfd;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Title */
+.cart-title {
+  font-size: 28px;
+  margin-bottom: 25px;
+  color: #222;
+  text-align: center;
+}
+
+/* Empty cart message */
+.cart-empty {
+  text-align: center;
+  color: #999;
+  font-size: 18px;
+  margin-top: 50px;
+}
+
+/* Cart item card */
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  padding: 15px 0;
+}
+
+/* Left side: image + info */
+.cart-item-left {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.cart-item-left img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  border-radius: 8px;
+  background-color: #f5f5f5;
+}
+
+/* Item title and price */
+.cart-item-left h4 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.cart-item-left p {
+  margin: 5px 0;
+  color: #555;
+}
+
+/* Quantity control */
+.quantity-control {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.quantity-control button {
+  padding: 4px 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.quantity-control button:hover {
+  background-color: #0056b3;
+}
+
+.quantity-control span {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Remove button */
+.remove-button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.remove-button:hover {
+  background-color: #b02a37;
+}
+
+/* Total */
+.cart-total {
+  margin-top: 30px;
+  text-align: right;
+}
+
+.cart-total h3 {
+  font-size: 22px;
+  color: #222;
+}

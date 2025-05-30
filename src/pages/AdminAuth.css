@@ -1,0 +1,63 @@
+.admin-auth-container {
+  max-width: 400px;
+  margin: 60px auto;
+  padding: 30px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.back-arrow {
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #333;
+  cursor: pointer;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.back-arrow:hover {
+  color: #007bff;
+}
+
+.admin-auth-container h2 {
+  text-align: center;
+  margin-bottom: 24px;
+  color: #222;
+}
+
+.admin-auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.admin-auth-form input {
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+.admin-auth-form input:focus {
+  border-color: #007bff;
+}
+
+.admin-auth-form button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.admin-auth-form button:hover {
+  background-color: #0056b3;
+}

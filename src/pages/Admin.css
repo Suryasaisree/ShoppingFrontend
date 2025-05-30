@@ -1,0 +1,77 @@
+/* Container styling */
+.admin-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background-color: #fdfdfd;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* Heading */
+.admin-container h2 {
+  text-align: center;
+  margin-bottom: 24px;
+  color: #333;
+}
+
+/* Back arrow styling */
+.back-arrow {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: color 0.2s ease;
+  font-weight: 500;
+}
+
+.back-arrow:hover {
+  color: #007bff;
+}
+
+/* Form layout */
+.admin-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Input and textarea styles */
+.admin-form input,
+.admin-form textarea {
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+.admin-form input:focus,
+.admin-form textarea:focus {
+  border-color: #007bff;
+}
+
+/* Textarea styling */
+.admin-form textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+/* Submit button */
+.admin-form button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.admin-form button:hover {
+  background-color: #0056b3;
+}

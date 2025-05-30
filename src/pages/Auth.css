@@ -1,0 +1,109 @@
+.auth-container {
+  max-width: 400px;
+  margin: 60px auto;
+  padding: 30px 25px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fafafa;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.auth-container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.auth-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-container input[type="email"],
+.auth-container input[type="password"],
+.auth-container input[type="text"] {
+  padding: 12px 15px;
+  margin-bottom: 18px;
+  font-size: 1rem;
+  border: 1.8px solid #ccc;
+  border-radius: 6px;
+  transition: border-color 0.3s ease;
+}
+
+.auth-container input[type="email"]:focus,
+.auth-container input[type="password"]:focus,
+.auth-container input[type="text"]:focus {
+  outline: none;
+  border-color: #4285F4;
+  box-shadow: 0 0 5px #4285F4;
+}
+
+.auth-container button[type="submit"] {
+  background-color: #4285F4;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+}
+
+.auth-container button[type="submit"]:hover {
+  background-color: #3367d6;
+}
+
+.auth-container hr {
+  border: none;
+  border-top: 1px solid #ddd;
+}
+
+.auth-container button {
+  width: 100%;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.auth-container p {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.auth-container a {
+  color: #4285F4;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.auth-container a:hover {
+  text-decoration: underline;
+}
+
+
+.auth-container .google-btn {
+  background-color: #4285F4;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 100%;
+  font-weight: 600;
+  transition: background-color 0.25s ease;
+}
+
+.auth-container .google-btn:hover {
+  background-color: #3367d6;
+}
+
+
+.auth-container .nav-link {
+  color: #4285F4;
+  text-decoration: underline;
+  cursor: pointer;
+  font-weight: 600;
+}
